@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./process.component.css']
 })
 export class ProcessComponent implements OnInit {
+  public readonly headerTitle = 'Our process';
+  public readonly headerSubTitle = 'A system built for rapid response.';
 
   constructor() { }
 

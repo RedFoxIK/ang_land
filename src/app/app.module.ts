@@ -7,6 +7,7 @@ import { FooterComponent } from './footer/footer.component';
 import { ContactsComponent } from './contacts/contacts.component';
 import { HeaderComponent } from './header/header.component';
 import { ProcessComponent } from './process/process.component';
+import { ResourcesComponent } from './resources/resources.component';
 
 const routes: Routes = [
   {
@@ -19,6 +20,11 @@ const routes: Routes = [
     pathMatch: 'full',
     component: ProcessComponent
   },
+  {
+    path: 'resources',
+    pathMatch: 'full',
+    component: ResourcesComponent
+  }
 ];
 @NgModule({
   declarations: [
@@ -26,7 +32,8 @@ const routes: Routes = [
     FooterComponent,
     ContactsComponent,
     HeaderComponent,
-    ProcessComponent
+    ProcessComponent,
+    ResourcesComponent
   ],
   imports: [
     BrowserModule,
